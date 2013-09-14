@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HHSchool</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result">Резюме</string>
+
+    <!-- Hints-->
+    <string name="name_edit_text_hint"> ФИО </string>
+    <string name="position_edit_text_hint">Должность</string>
+    <string name="salary_edit_text_hint">Зарплата</string>
+    <string name="phone_edit_text_hint">Телефон</string>
+    <string name="email_edit_text_hint">E-mail</string>
+    <string name="sex_spinner_hint">Пол</string>
+    <string name="feedback_edit_text_hint">Ответ соискателю</string>>
+    <string name="date_banner"> Дата рождения </string>
+    <string name="date_text">1.1.1980 </string>
+
+
+
+
+    <!-- Buttons -->
+    <string name="send_button_text">Отправить</string>
+    <string name="send_response_button_text">Отправить ответ</string>
+
+
+    <!-- Feedback Dialog -->
+    <string name="feedback_dialog_positive_button_text">Ок</string>
+    <string name="feedback_dialog_title_text">Ответ от работодателя</string>
+
+    <!-- Spinner array -->
+    <string-array name="sex_array">
+        <item>Мужчина</item>
+        <item>Женщина</item>
+    </string-array>
+
+
+</resources>

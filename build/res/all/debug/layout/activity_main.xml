@@ -1,0 +1,107 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameEditText"
+            android:layout_gravity="left|center_vertical"
+            android:inputType="textCapWords"
+            android:autoText="false"
+            android:singleLine="false"
+            android:layout_marginTop="@dimen/standart_top_margin"
+            android:hint="@string/name_edit_text_hint" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showDatePickerDialog"
+            android:layout_marginTop="@dimen/standart_top_margin" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/dateTextView"
+                android:layout_marginLeft="10dp"
+                android:singleLine="false"
+                android:text="@string/date_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/date_banner"
+                android:id="@+id/dateBanner"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sexSpinner"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="@dimen/standart_top_margin" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/positionEditText"
+            android:inputType="textCapSentences"
+            android:hint="@string/position_edit_text_hint"
+            android:layout_marginTop="@dimen/standart_top_margin" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/salaryEditText"
+            android:layout_marginTop="@dimen/standart_top_margin"
+            android:hint="@string/salary_edit_text_hint" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phoneEditText"
+            android:layout_marginTop="@dimen/standart_top_margin"
+            android:hint="@string/phone_edit_text_hint" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailEditText"
+            android:layout_marginTop="@dimen/standart_top_margin"
+            android:hint="@string/email_edit_text_hint" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_button_text"
+            android:id="@+id/sendButton"
+            android:onClick="sendSummary"
+            android:layout_marginTop="@dimen/standart_top_margin" />
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/HHSchoolProject/HHSchool/src/main/res/layout/activity_main.xml -->
